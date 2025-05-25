@@ -8,6 +8,10 @@ You can export your ChatGPT data by following the official OpenAI documentation:
 
 [How do I export my ChatGPT history and data?](https://help.openai.com/en/articles/7260999-how-do-i-export-my-chatgpt-history-and-data)
 
+## Note
+
+This repository starts with a single commit to provide a clean, focused version for public sharing.
+
 ## Getting Started
 
 ### Prerequisites
