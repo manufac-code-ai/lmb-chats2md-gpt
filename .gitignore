@@ -3,6 +3,7 @@ input/
 
 # Ignore the entire output folder (generated Markdown files)
 output/
+_docs/
 
 # Ignore local configuration with personal paths
 config/config_loc.py
