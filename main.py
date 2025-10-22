@@ -5,10 +5,10 @@ import argparse
 import sys
 import csv
 from datetime import datetime
-from config.config import INPUT_FOLDER, INPUT_FILE, ARCHIVE_DIR, INDEX_FILE, RECURSION_LIMIT
-from utils import load_index, write_csv_index, sanitize_filename, generate_unique_filename, hash_content
-from chat_processor import extract_metadata, format_yaml_header, analyze_conversation
-from parser import get_conversation
+from src.common.config.config import INPUT_FOLDER, INPUT_FILE, ARCHIVE_DIR, INDEX_FILE, RECURSION_LIMIT
+from src.common.utils import load_index, write_csv_index, sanitize_filename, generate_unique_filename, hash_content
+from src.llm_chatgpt.processor import extract_metadata, format_yaml_header, analyze_conversation
+from src.llm_chatgpt.parser import get_conversation
 
 sys.setrecursionlimit(RECURSION_LIMIT)
 
